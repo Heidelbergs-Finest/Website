@@ -35,11 +35,12 @@ Dann ging’s rein in den Trail: flowig, wurzlig, traumhaft schön. Vorbei am Ko
 Über Hartenrod kurbelten wir wieder bergauf, bis zur Tromm, wo wir gegen 11 Uhr die nächste längere Pause einlegten.
 Sonne, Aussicht, Rig-&-Rider-Fotos, alles da. Dann die Belohnung: eine feine Trailabfahrt über den Lerchenberg runter nach Lörzenbach.
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["kochkaes_08.jpeg", "kochkaes_09.jpeg"],
- ["kochkaes_12.jpeg", "kochkaes_18.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/kochkaes_08.jpg" alt="Tromm Aussicht mit Mark und Christian">
+  <img src="media/kochkaes_09.jpg" alt="Trailabfahrt am Lerchenberg">
+  <img src="media/kochkaes_12.jpg" alt="Gruppenfoto an der Tromm">
+  <img src="media/kochkaes_18.jpg" alt="Felix und Matthias auf dem Trail">
+</div>
 
 Und dort – na klar – hätte eigentlich die Odenwälder Kochkäserei gewartet. Hätte. Weil: Betriebsferien. Also Planänderung – und was für eine. [Capriccio](https://www.pizzeria-eiscafe-capriccio.de/), Pizzeria in Lörzenbach (oder Fürth, je nachdem, wen man fragt). Christian rein, freundlich gefragt: „Habt ihr vielleicht noch einen Tisch?“ Antwort: „Nee. Alles voll. Gleich wird’s Horror.“ Der Laden: leer. Wir: verwirrt.
 
@@ -47,10 +48,10 @@ Also draußen Platz genommen – an der Grenze zwischen frisch und frostig. Und 
 
 Aber das Essen? Phänomenal. Pinsa, Pizza, Spaghetti mit Meeresfrüchten, dazu alles, was die Kaltgetränkekarte hergibt. Top Qualität, schnelle Küche, Preise fair – wir waren im Glück. Kochkäserei hin oder her: Das Capriccio hat geliefert.
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["kochkaes_11.jpeg"],["kochkaes_16.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/kochkaes_11.jpg" alt="Christian mit Pinsa in Capriccio">
+  <img src="media/kochkaes_16.jpg" alt="Bergpanorama vom Knodener Kopf">
+</div>
 
 # Knodener Kopf, Dorfcafé & Trailfinale
 

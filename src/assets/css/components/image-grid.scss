@@ -1,0 +1,38 @@
+// Simple Image Grid Component
+// Usage:
+// <div class="image-grid">
+//   <img src="image1.jpg" alt="Description">
+//   <img src="image2.jpg" alt="Description">
+//   <img src="image3.jpg" alt="Description">
+// </div>
+//
+// The grid will automatically arrange images in 2 columns
+// and stack them vertically on mobile devices.
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+  width: 100%;
+
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  // Single image full width
+  &:has(> img:only-child) {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  // Responsive: stack on small screens
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
