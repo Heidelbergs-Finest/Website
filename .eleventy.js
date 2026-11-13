@@ -35,7 +35,39 @@ function getFilenameWithoutExtensin(filenameIncludingPath) {
     return parts.join('.');
 }
 
+async function imageNeedsProcessing(srcPath, outputDir) {
+    const filenameWithoutExtension = getFilenameWithoutExtensin(srcPath);
+    const fullOutputPath = `${outputDir}/${filenameWithoutExtension}.jpeg`;
+    const thumbOutputPath = `${outputDir}/thumbnail-${filenameWithoutExtension}.jpeg`;
+
+    // If output directory doesn't exist, we need to process
+    if (!fs.existsSync(outputDir)) {
+        return true;
+    }
+
+    // Check if both output files exist
+    const fullExists = fs.existsSync(fullOutputPath);
+    const thumbExists = fs.existsSync(thumbOutputPath);
+    
+    if (!fullExists || !thumbExists) {
+        return true;
+    }
+
+    // Check modification times - process if source is newer than any output
+    const srcStat = fs.statSync(srcPath);
+    const fullStat = fs.statSync(fullOutputPath);
+    const thumbStat = fs.statSync(thumbOutputPath);
+
+    return srcStat.mtime > fullStat.mtime || srcStat.mtime > thumbStat.mtime;
+}
+
 async function generateImages() {
+    // If ELEVENTY_SKIP_IMAGES is set, only process images that don't exist yet
+    const skipMode = process.env.ELEVENTY_SKIP_IMAGES === 'true';
+    
+    if (skipMode) {
+        console.log('Running in fast mode: only processing missing images');
+    }
 
 	let options = {
 		widths: [THUMB, "auto", FULL],
@@ -56,13 +88,38 @@ async function generateImages() {
 
 	let files = await glob('./src/**/media/*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}');
 
+	let processedCount = 0;
+	let skippedCount = 0;
+
 	for(const f of files) {
-		console.log('image processing: ',f);
+        const outputDir = '_site/' + getRelativeImageLocation(f);
+        
+        // In fast mode, only process if images don't exist
+        // In normal mode, process if images don't exist or source is newer
+        let needsProcessing;
+        if (skipMode) {
+            // Fast mode: process only if output files don't exist
+            const filenameWithoutExtension = getFilenameWithoutExtensin(f);
+            const fullOutputPath = `${outputDir}/${filenameWithoutExtension}.jpeg`;
+            const thumbOutputPath = `${outputDir}/thumbnail-${filenameWithoutExtension}.jpeg`;
+            needsProcessing = !fs.existsSync(fullOutputPath) || !fs.existsSync(thumbOutputPath);
+        } else {
+            // Normal mode: process if source is newer than outputs
+            needsProcessing = await imageNeedsProcessing(f, outputDir);
+        }
 
-        options.outputDir = '_site/' + getRelativeImageLocation(f);
-
-		let md = await Image11ty(f, options);
-	};
+        if (needsProcessing) {
+            console.log('image processing: ', f);
+            options.outputDir = outputDir;
+            await Image11ty(f, options);
+            processedCount++;
+        } else {
+            console.log(skipMode ? 'image skipped (exists): ' : 'image skipped (already up-to-date): ', f);
+            skippedCount++;
+        }
+	}
+	
+	console.log(`Image processing complete: ${processedCount} processed, ${skippedCount} skipped`);
 };
 
 module.exports = function(eleventyConfig) {
