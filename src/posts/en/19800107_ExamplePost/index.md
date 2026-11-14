@@ -3,7 +3,7 @@ eleventyExcludeFromCollections: true
 title: Ein toller Titel
 description: Eine Titel Unterschrift 
 date: 1980-01-07
-banner: "L1040393.jpeg"
+banner: "L1040393.JPG"
 tags:
   - MTB
   - Run
@@ -153,17 +153,19 @@ Autoconverted link https://github.com/nodeca/pica
 
 ## Images
 
-![Ein Bild](media/IMG_20180728_183643.jpeg "Some hoover over text")
+![Ein Bild](media/IMG_20180728_183643.jpg "Some hoover over text")
 
 ## Image grid
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["2012-08-07 15.10.59.jpeg", "2018-07-27 19.47.28.jpeg"],
- ["IMG_20180728_183643.jpeg", "IMG_20161023_144116.jpeg"],
- ["L1040393.jpeg", "PXL_20210405_072920868.MP.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/2012-08-07 15.10.59.jpg" alt="Bild 1">
+  <img src="media/2018-07-27 19.47.28.jpg" alt="Bild 2">
+  <img src="media/IMG_20180728_183643.jpg" alt="Bild 3">
+  <img src="media/IMG_20161023_144116.jpg" alt="Bild 4">
+  <img src="media/L1040393.JPG" alt="Bild 5">
+  <img src="media/PXL_20210405_072920868.MP.jpg" alt="Bild 6">
+</div>
 
 ## Komoot Embedding
 
-<iframe src="https://www.komoot.de/tour/942543524/embed?share_token=anXZ2FodWyx4sb9FY1E46cgJvY1xGSsFUGUXcDIie8E2EcyaAj&profile=1" width="100%" height="700" scrolling="no"></iframe>
+<iframe src="https://www.komoot.de/tour/937397546/embed?share_token=aYxmVyIakSSgp1WNmKoYY0rCKLAgLW6RLC7TItgH6MaJemFDKm" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
