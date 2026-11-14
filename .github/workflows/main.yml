@@ -28,7 +28,7 @@ jobs:
 
       # 4. Website bauen (mit Image Processing)
       - name: Build website
-        run: npm run build
+        run: ELEVENTY_ENV=production npm run build
         env:
           ELEVENTY_ENV: production
 
