@@ -30,13 +30,8 @@
         <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon32 }}">
         <link rel="icon" type="image/png" sizes="16x16" href="{{ favicon16 }}">
 
-        {% if env.ELEVENTY_ENV == "production" %}
-            {% set link = "/assets/css/" + csshash.indexCSS %}
-            <link rel="preload" href="{{ link | url }}" as="style" />
-            <link rel="stylesheet" href="{{ link | url }}" type="text/css" />
-        {% else %}
-            <link rel="stylesheet" href="/assets/css/index.css" type="text/css" />
-        {% endif %}
+        <link rel="preload" href="/assets/css/index.css" as="style" />
+        <link rel="stylesheet" href="/assets/css/index.css" type="text/css" />
         <link rel="alternate" href="{{ metadata[locale].feed.path | url }}" type="application/atom+xml" title="{{ metadata[locale].title }}">
         <link rel="alternate" href="{{ metadata[locale].jsonfeed.path | url }}" type="application/json" title="{{ metadata[locale].title }}">
         
