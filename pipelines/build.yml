@@ -7,12 +7,37 @@ on:
       - markbangert-patch-1
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
-    - name: Upload to S3
-      run: |
-        aws s3 sync * s3://images-4-hdf-website-raw/ --include "**/Kleinwalsertal*.jpg" 
-      env:
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    steps:
+      # 1. Code auschecken
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Node.js einrichten (mit Cache für schnelleren Build)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # 3. Abhängigkeiten installieren
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. Website bauen (mit Image Processing)
+      - name: Build website
+        run: npm run build
+        env:
+          ELEVENTY_ENV: production
+
+      # 5. zu S3 deployen (nur geänderte Dateien werden hochgeladen)
+      - name: Deploy to S3
+        run: |
+          aws s3 sync _site/ s3://heidelbergs-finest.de/ \
+            --delete \
+            --cache-control "public, max-age=31536000, immutable"
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
