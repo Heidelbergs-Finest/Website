@@ -7,7 +7,6 @@ const { markdownLibrary } = require("./.markdown.js");
 const CleanCSS = require('clean-css');
 const Image11ty = require("@11ty/eleventy-img");
 const glob = require("glob-promise");
-const { path } = require("animejs");
 const sizeOf = require('image-size')
 
 const FULL = 1600;
@@ -179,7 +178,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addCollection('images', async collectionApi => {
 
-		let files = await glob('**/_site/posts/**/media/*.{jpg,jpeg,png,gif}');
+		let files = await glob('./src/posts/**/media/*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}');
 
         //Now filter to non thumb-
 		let images = files.filter(f => {
@@ -189,6 +188,7 @@ module.exports = function(eleventyConfig) {
         let collection = []
             
         for (let i = 0; i < images.length; i++) {
+			try {
             var dimensions = sizeOf(images[i]);
 
             c = {
@@ -200,6 +200,9 @@ module.exports = function(eleventyConfig) {
             };
 
             collection.push(c);
+			} catch (e) {
+				console.log('Error reading image:', images[i], e.message);
+			}
         }
 
 		return collection;

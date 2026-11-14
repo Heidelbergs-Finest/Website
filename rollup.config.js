@@ -12,7 +12,8 @@ export default {
   input: './src/assets/js/index.js',
   output: {
     file: './_site/assets/js/bundle.js',
-    format: 'iife'
+    format: 'iife',
+    sourcemap: !isProd
   },
   plugins
 };
