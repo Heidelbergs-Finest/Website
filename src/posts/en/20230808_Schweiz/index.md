@@ -53,10 +53,10 @@ Der Trail erfordert Aufmerksamkeit, aber ohne uns zu sehr zu kitzeln und so freu
 <br>
 <br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230805205818.jpeg"], ["Schweiz_20230806083336.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230805205818.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230806083336.jpeg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -75,15 +75,15 @@ In Claudines Bar im [Chasa Jaro](https://chasa-jaro.ch/) bekommen wir ein erstkl
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230806092252.jpeg"], ["Schweiz_20230806111050.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230806092252.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230806111050.jpeg" alt="Bild 2">
+</div>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230806105609.jpeg"], ["Schweiz_20230806125016.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230806105609.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230806125016.jpeg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -109,10 +109,10 @@ Hier haben wir die Möglichkeit unsere heutige Etappe abzukürzen. Am Arsch! Ist
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230806140333.jpeg"], ["Schweiz_20230806140354.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230806140333.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230806140354.jpeg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -120,15 +120,15 @@ Es ist bolleheiss! Wir haben uns für einen Schlenker entschieden, der uns nach 
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230806171017.jpeg"], ["Schweiz_20230806173420.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230806171017.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230806173420.jpeg" alt="Bild 2">
+</div>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230806181408.jpeg"], ["Schweiz_20230806190547.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230806181408.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230806190547.jpeg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -146,10 +146,10 @@ Es gibt italienisches Frühstück. Ich pfeife mir direkt 3 Stück Kuchen rein. G
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230807073211.jpeg"], ["Schweiz_20230807113759.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230807073211.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230807113759.jpeg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -159,10 +159,10 @@ Bei anhaltendem Schneegestöber steigen wir dann auf zum Lach dal Mónt. Anfäng
 
 ![Piz La Streta](media/Schweiz_20230807142729.jpeg)
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230807142118.jpeg"], ["Schweiz_20230807131448.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230807142118.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230807131448.jpeg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -170,15 +170,15 @@ Mittlerweile haben wir etwas den Respekt vor dem Schweizer Wetter verloren. Man 
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230807151017.jpeg"], ["Schweiz_20230807153546.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230807151017.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230807153546.jpeg" alt="Bild 2">
+</div>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230807153806.jpeg"], ["Schweiz_20230807170740.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230807153806.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230807170740.jpeg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -194,15 +194,15 @@ Außer uns sind nur noch drei weitere Gäste auf der Hütte. Ein Schweizer mit s
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230807174253.jpeg"], ["Schweiz_20230808065658.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230807174253.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230808065658.jpeg" alt="Bild 2">
+</div>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230807214454.jpeg"], ["Schweiz_20230807214815.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230807214454.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230807214815.jpeg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -221,15 +221,15 @@ Puh! Die Nacht war wärmer als gedacht aber genauso unruhig wie erwartet. Unsere
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230808073647.jpeg"], ["Schweiz_20230808104925.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230808073647.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230808104925.jpeg" alt="Bild 2">
+</div>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230808111323.jpeg"], ["Schweiz_20230808100544.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230808111323.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230808100544.jpeg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -254,10 +254,10 @@ Komplett entspannt sind wir aber auch nicht mehr, vor allen Dingen wegen der for
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230808165438.jpeg"], ["Schweiz_20230808193010.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230808165438.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230808193010.jpeg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -276,15 +276,15 @@ Die Prognose für den heutigen Tag ist ziemlich durchwachsen. Und wie bei jedem 
 
 <br><br>
  
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230809105405.jpeg"], ["Schweiz_20230809121922.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230809105405.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230809121922.jpeg" alt="Bild 2">
+</div>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Schweiz_20230809094745.jpeg"], ["Schweiz_20230809113404.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Schweiz_20230809094745.jpeg" alt="Bild 1">
+  <img src="media/Schweiz_20230809113404.jpeg" alt="Bild 2">
+</div>
 
 <br><br>
 

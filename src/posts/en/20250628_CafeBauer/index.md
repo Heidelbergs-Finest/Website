@@ -22,11 +22,12 @@ layout: layouts/post.njk
 
 Und so stehen wir um 7:00 Uhr (altersgerecht spät, nicht wie sonst für den #longestday üblich zum Sonnenaufgang) am Start – bereit für eine Kaffeefahrt mit Ansage: 103 Kilometer, 2.646 Höhenmeter, Trailquote deutlich überm Soll – und ein Ziel, das kulinarisch glänzt: [Café Bauer. Tassenmuseum, Kuchenbunker, Rentnerpilgerstätte](https://cafe-bauer-hammelbach.hier-im-netz.de/index2.html).
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["IMG_20250628_104821.jpeg", "IMG_20250628_111123.jpeg"],
- ["IMG_20250628_130907.jpeg", "IMG_20250628_135214.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/IMG_20250628_104821.jpeg" alt="Bild 1">
+  <img src="media/IMG_20250628_111123.jpeg" alt="Bild 2">
+  <img src="media/IMG_20250628_130907.jpeg" alt="Bild 3">
+  <img src="media/IMG_20250628_135214.jpeg" alt="Bild 4">
+</div>
 
 Schon das Einrollen entlang des Neckars läuft rund – Schlossblick, gute Laune, Nordostkurs. Dann wird’s ernst: die Serpentinen an der Dreitälerblick Hütte liefern Kurvenkino vom Feinsten. Düse versetzt schwungvoll, das Hinterrad denkt mit – aber muss trotzdem gerichtet werden. Gehört dazu. #itsakrämpthäng
 

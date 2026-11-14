@@ -56,12 +56,11 @@ Nach kurzem Zwischenstopp bei Conad (eine mittlerweile liebgewonnene Routine) si
 
 Wir machen noch einen Cola & Chips Stopp mit tausend motorisierten anderen Touristen am Rifugio Savoia. Aber irgendwie fühlen wir uns hier fremd und wollen vor allem wieder weiter. Laut Briefing schließt ein S5 Trail unseren Tag ab. Wir sind in ehrfürchtiger Erwartung, während wir erst mal eine Highspeedflowpassage unter die Stollen nehmen. Was folgt ist ein Trail der ganz besonderen Art: Extrem abwechslungsreich über Slick Rocks, flowig über Wiesen und enge, staubige Kehren immer an einem rauschenden Bachlauf entlang. Christian testet eindrucksvoll die Klettereigenschaften der Onzas auf den Steinplatten. Hinter einer Kehre erwartet uns ein Topbadespot den wir nicht unbeplanscht lassen können - so herrlich hatten es unsere blanken Ärsche nur selten. Ähnlich breit ist unser Grinsen. Nach der Premiumabkühlung sind wir bereit, unser gesamtes Spektrum auszureizen: Der S5-Trail verlangt uns alles ab, aber wir sind durch die Bank zufrieden mit unserer Performance und ernten anerkennende Blicke der Wanderer. Staubig vom Trail werden wir kurz oberhalb des Campingplatzes Pont Bruil ausgespuckt.
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["20240804_144936_Elendlang_Aosta.jpg"],
- ["20240804_145303_Elendlang_Aosta.jpg"],
- ["20240804_151023_Elendlang_Aosta.jpg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/20240804_144936_Elendlang_Aosta.jpg" alt="Bild 1">
+  <img src="media/20240804_145303_Elendlang_Aosta.jpg" alt="Bild 2">
+  <img src="media/20240804_151023_Elendlang_Aosta.jpg" alt="Bild 3">
+</div>
 
 Wir blasen jetzt die letzten Meter mit wehenden Trailhemden die Asphaltstraße zum Auto runter bevor wir unter der Outdoordusche unser wohlverdientes Kaltgetränk genießen. What a Day! Was an diesem göttlichen Tag noch fehlt, wäre eine Audienz beim Papst. Und so finden wir uns ein paar Minuten später auf der [Gartenterrasse des Pontifex](https://maps.app.goo.gl/LFrog5VEACpBF8XB6) im Abendlicht bei Pizza und Aperyolo. Auf der gegenüberliegenden Seite liegt das Ziel für Morgen - der Gipfel der Punta Leysser…wohlig fallen wir in unsere Kinderbetten, während der Traum von Andy zu Mark überspringt…
 
@@ -87,14 +86,13 @@ Der fünfte Tag beginnt im Dunkeln, aber dennoch mit einem ordentlichen Frühst�
 
 Wir haben’s aber eilig, die Sonne wartet nicht auf uns. Deshalb brechen wir zielstrebig in der Dämmerung auf. Da wir keine guten Lampen dabei hatten, haben wir uns dazu entschieden, nicht komplett im Dunkeln aufzubrechen. Unsere Überlegungen, dass wir den Trail zum Gipfel dadurch gut sehen können und gleichermaßen zügig wie sicher vorankommen, gingen auf - fast ein bisschen zu gut. Die 300hm zum Gipfel halten uns zwar nicht lange auf, auch wenn mal einiges tragen musste. Die ersten Sonnenstrahlen erwischen uns aber trotzdem bereits knapp unterhalb des Gipfels, kurz vor einer etwas luftigeren, seilversicherten Passage. Andy hat mittlerweile den ersten Platten und Marks Fuß hat sich auch schon wieder gemeldet, schmerzt im Knöchel unkalkulierbar beim Steigen. Das stört aber niemanden so wirklich. Das Panorama nach Süden zum Gran Paradiso und nach Westen zum Mont Blanc nimmt alle Sinne ein. Es ist keine Wolke am Himmel, magisches Licht setzt die gigantischen Bergmassive in der Ferne und Felder von Edelweiss unmittelbar zu unseren Füßen gleichermaßen in Szene. Am Gipfelkreuz auf 2771 m wird der Platten versorgt, gevespert und eine Menge Photos geschossen. Dann folgt eine endlose, aussichtsreiche Abfahrt auf dem Kamm. In weiten Teilen ist der Trail extrem flowig auf griffigen, erdigen Trails, wird aber immer wieder durch kurze Gegenanstiege unterbrochen. Auf dem Vorgipfel Punta Oilletta auf 2625 m werden wir von einer Herde Ziegen gestoppt. Uns allen ist erst nicht ganz klar, wie wir aneinander vorbei finden, aber schlussendlich klappt’s. Hier wird der Trail steiler, aber nie wirklich schwer. Wir machen die Bremsen auf und fliegen Richtung Aosta, was 2000 m unter uns wartet, und schauen immer wieder nach rechts zum großen Weißen, der 2000 m über uns thront. Irgendwann hat Andy den zweiten Platten, das nervt aber auch niemanden. Unsere restliche Tagesaufgabe ist überschaubar und bereits jetzt haben wir einen Deluxe Trail inklusive unvergesslichem Sonnenaufgang im Gepäck.
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["20240806_062832_Elendlang_Aosta.jpg"],
- ["20240806_063404_Elendlang_Aosta.jpg"],
- ["20240806_074259_Elendlang_Aosta.jpg"],
- ["20240806_081844_Elendlang_Aosta.jpg"],
- ["20240806_063615_Elendlang_Aosta.jpg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/20240806_062832_Elendlang_Aosta.jpg" alt="Bild 1">
+  <img src="media/20240806_063404_Elendlang_Aosta.jpg" alt="Bild 2">
+  <img src="media/20240806_074259_Elendlang_Aosta.jpg" alt="Bild 3">
+  <img src="media/20240806_081844_Elendlang_Aosta.jpg" alt="Bild 4">
+  <img src="media/20240806_063615_Elendlang_Aosta.jpg" alt="Bild 5">
+</div>
 
 Nachdem wir wieder mehr als 1 bar in Andys Hinterrad hatten, machen wir uns weiter nach unten. Ab 1500 m ändert sich der Weg und wir queren, teilweise stark ausgesetzt und extrem zugewuchert, aber immer mit Mörderaussicht ins Aostatal, Richtung Westen nach La Salle, wo wir gestern den Ballerbus deponiert hatten. Leider verliert Mark auf dem Trail seinen heißgeliebten Midlayer an einen unbekannten Dornbusch.
 

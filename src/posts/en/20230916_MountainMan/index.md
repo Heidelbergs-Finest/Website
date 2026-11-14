@@ -22,10 +22,10 @@ Ich schaue auf meine Garmin: Es ist 5:30 Uhr und ich höre die Filmmusik von „
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["2023_MountainMan000.jpg"], ["2023_MountainMan001.jpg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/2023_MountainMan000.jpg" alt="Bild 1">
+  <img src="media/2023_MountainMan001.jpg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -63,10 +63,10 @@ Diese Facette hatte ich in meiner Vorbereitung schlicht ignoriert. Ich merkte gl
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["2023_MountainMan004.jpg"], ["2023_MountainMan005.jpg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/2023_MountainMan004.jpg" alt="Bild 1">
+  <img src="media/2023_MountainMan005.jpg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -74,10 +74,10 @@ Als Teil einer Vierergruppe war ich ziemlich im Flow, als ich an einer Geländeb
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["2023_MountainMan007.jpg"], ["2023_MountainMan009.jpg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/2023_MountainMan007.jpg" alt="Bild 1">
+  <img src="media/2023_MountainMan009.jpg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -87,11 +87,12 @@ Am Gipfel des Gründeggs auf 2100 m überholte ich zum ersten Mal Hans, der mich
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["2023_MountainMan010.jpg"], ["2023_MountainMan011.jpg"],
- ["2023_MountainMan012.jpg"], ["2023_MountainMan013.jpg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/2023_MountainMan010.jpg" alt="Bild 1">
+  <img src="media/2023_MountainMan011.jpg" alt="Bild 2">
+  <img src="media/2023_MountainMan012.jpg" alt="Bild 3">
+  <img src="media/2023_MountainMan013.jpg" alt="Bild 4">
+</div>
 
 <br><br>
 
@@ -105,10 +106,10 @@ Im folgenden gingen es wieder hoch auf den Bergrücken und da weiter isohypsig a
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["2023_MountainMan015.jpg"], ["2023_MountainMan016.jpg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/2023_MountainMan015.jpg" alt="Bild 1">
+  <img src="media/2023_MountainMan016.jpg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -124,10 +125,10 @@ Tatsächlich aber tat mir die kleine „Pause“ aber sehr gut und ich fand rela
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["2023_MountainMan017.jpg"], ["2023_MountainMan019.jpg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/2023_MountainMan017.jpg" alt="Bild 1">
+  <img src="media/2023_MountainMan019.jpg" alt="Bild 2">
+</div>
 
 <br><br>
 
@@ -159,10 +160,10 @@ Ca. 40 Minuten später stehe ich bis zu den Knien in eiskaltem Wasser des Bachla
 
 <br><br>
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["2023_MountainMan022.jpg"], ["2023_MountainMan023.jpg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/2023_MountainMan022.jpg" alt="Bild 1">
+  <img src="media/2023_MountainMan023.jpg" alt="Bild 2">
+</div>
 
 <br><br>
 

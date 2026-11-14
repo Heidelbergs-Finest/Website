@@ -34,11 +34,10 @@ Our 2012 attempt had to be canceled last minute but in 2013 we eventually manage
 
 We arrived at the trail head around 9pm. We set up camp on a beautiful spot overlooking the valley and had a BBQ with sausages from Heidelberg’s finest butcher, salad, and cold beers from the local brewery.
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["L1020902.JPG"],
- ["L1020905.JPG"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/L1020902.JPG" alt="Bild 1">
+  <img src="media/L1020905.JPG" alt="Bild 2">
+</div>
 
 Our plan was to be above the tree line for sunrise so we set out at 3am. The first part of the climb was on a well maintained fire road and we made very good progress while it was pitch-black. At the break of dawn the uphill turned into a tricky trail. We brought our head lights so it was OK even though we shit our pants at the most exposed sections which were not equipped with wire rope. Unlike shown in the video we ended up pushing and carrying our bikes for the most part on that section.
 

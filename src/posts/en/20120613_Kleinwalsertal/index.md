@@ -27,10 +27,10 @@ We started day one with plenty of energy bars in our packs and  our motivation w
 
 The sun was melting us down during the ascend of the nearby peak of the Kuhgehrenspitze. After enjoying the silence and the alpine panorama for a while, we were pretty  excited about the following downhill in the shades of the Kanzelwand through gnarly singletrails and open cow alps.
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Kleinwalsertal06302012102356.jpeg"], ["Kleinwalsertal06302012125552.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Kleinwalsertal06302012102356.jpeg" alt="Bild 1">
+  <img src="media/Kleinwalsertal06302012125552.jpeg" alt="Bild 2">
+</div>
 
 Back in our home base Riezlern, we set out one more time to meet our local guide Mario who wanted to show us a secret trail in Mutterberg. The trail was awesome but unfortunately Mario hit a wrong jump and slammed heavily so our first day ended abruptly with a bad touch and an unfinished ride.
 
@@ -38,10 +38,10 @@ Back in our home base Riezlern, we set out one more time to meet our local guide
 
 After stocking upwith  Schnitzel and Weißbier we planned our tour for the following day to the Walmendinger Horn with a holy trail down to Baad. 
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["Kleinwalsertal07012012124314(1).jpeg"], ["Kleinwalsertal06302012102600.jpeg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/Kleinwalsertal07012012124314(1).jpeg" alt="Bild 1">
+  <img src="media/Kleinwalsertal06302012102600.jpeg" alt="Bild 2">
+</div>
 
 This tour had everything trail dreams are made of – a breathtaking panorama, a sweatdripping uphill, and a single trail with many faces: It started pretty flat and flowy on alpine terrain in the backcountry of the valley but midway it changed to a gnarly and highly technical beast  with loads of challenges for the bikes and the riders. Meanwhile the atmosphere got more and more mystically because of an uprising thunderstorm. The lower part of the trail was  fast and flowy and a perfect finish for the tour and the weekend. 
 

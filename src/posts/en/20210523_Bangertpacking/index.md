@@ -32,21 +32,21 @@ Hatten wir bis hierhin immer wieder heftige Trails zu bewältigen, so sind wir n
 
 Zwischenrein gibt es noch ein Eis in Reichelsheim, aber das kulinarische Highlight ist mit Sicherheit das legendäre [Gasthaus zur Schmelz](https://www.gasthaus-zur-schmelz.de/) bei Hüttenthal, das wir gegen 19 Uhr erreichen. Glücklicher Weise findet die Chefin des Hauses auch trotz Full House und Coronabeschränkungen eine Möglichkeit uns zu bewirten und so kriegen wir kurzerhand im Außenbereich einen kleinen Tisch gerichtet. Bei Kochkäseschnitzel und Pommes fällt die Entscheidung durchzuziehen bis die Sonne untergeht. Mit dem Marbachstausee gäbe es zwar einen guten Spot für ein Nachtlager, aber noch ist es zu früh und wir haben noch zu viel Power um den Tag für beendet zu erklären.
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["PXL_20210523_123448439.jpg"],
- ["PXL_20210523_142829957.jpg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/PXL_20210523_123448439.jpg" alt="Bild 1">
+  <img src="media/PXL_20210523_142829957.jpg" alt="Bild 2">
+</div>
 
 Nach dem Kochkäscarboloading rollen wir gemütlich weiter Richtung Marbach und Hetzbach wo vielleicht der schönste asphalitierte Anstieg im Odenwald zu finden ist. Und wir haben natürlich nochmal zusätzlich Glück, weil wir den Weg hoch nach Bullau im schönsten Abendlicht machen dürfen.
 
 An diesem Tag geht sich wirklich vom Timing her alles aus. Die Eisdiele kommt zu einem perfekten Zeitpunkt, das Kochkässchnitzel sowieso, und zur Krönung des Tages erreichen wir mit dem letzten Licht des Tages den Eutersee, ein Deluxe Nachtlager. Da ich Paranoia schiebe, dass es nachts mächtig kalt werden könnte, stellen wir unser Zelt auf und platzieren das dann auch noch innerhalb einer Schutzhütte. Letztlich wird die Nacht zwar sternenklar und wir dürfen über dem See das Mondlicht bewundern, aber richtig kalt wird es dann doch nicht. 
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["PXL_20210523_194332550.jpg", "PXL_20210523_210534051.NIGHT.jpg"],
- ["PXL_20210523_203059888.NIGHT.jpg", "PXL_20210523_210602227.NIGHT.jpg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/PXL_20210523_194332550.jpg" alt="Bild 1">
+  <img src="media/PXL_20210523_210534051.NIGHT.jpg" alt="Bild 2">
+  <img src="media/PXL_20210523_203059888.NIGHT.jpg" alt="Bild 3">
+  <img src="media/PXL_20210523_210602227.NIGHT.jpg" alt="Bild 4">
+</div>
 
 Trotzdem schmeckt am nächsten Tag der warme Poorridge zum Frühstück gut und gibt uns ausreichend Power für den Aufstieg zum höchten Punkt des Odenwalds, dem Katzenbuckel. Mehrfach denken wir diesen Punkt bald zu erreichen, aber immer wieder werden wir getäuscht.
 

@@ -19,11 +19,12 @@ Das geht ja gut los. Der Spezialist für Spaghettireifen bricht mir, noch bevor 
 
 Es ist viel Verkehr auf der A5 Richtung Süden. Deshalb wurde die erste Etappe unseres Vogesentrips auch ziemlich gekürzt. Wir starten in Selestat auf dem Parkplatz am Bahnhof. Nach ein paar km Radweg in der Ebene schlagen wir uns auf einer steilen Rampe vorbei am [Château Haut-Koenigsburg](https://www.haut-koenigsbourg.fr/) in den Wald. Wir passieren einige Weiler, aber ganz langsam wird es einsamer und nach knappen 2h Fahrtzeit erreichen wir einen guten Platz für ein Nachtlager. Eigentlich sind wir gar nicht weit weg von einer Fahrstraße gelandet, aber das fällt nicht wirklich auf, da zwischen 21 Uhr und 6 Uhr morgens nicht mehr als drei Autos zu hören sind. Dafür gibt es mit einer Bank, einem Tisch und einer Feuerstelle einige Annehmlichkeiten, und nach Einbruch der Dunkelheit hören wir immer ein Käuzchen rufen. Ein einsA Spot für die erste Nacht.
 
-{% from "components/image-grid.njk" import imageGrid %}
-{{ imageGrid([
- ["PXL_20220506_194343027.MP.jpg", "PXL_20220507_062357987.jpg"],
- ["PXL_20220506_183721675.jpg", "IMG_5607.jpg"]
-]) }}
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0;">
+  <img src="media/PXL_20220506_194343027.MP.jpg" alt="Bild 1">
+  <img src="media/PXL_20220506_183721675.jpg" alt="Bild 3">
+  <img src="media/IMG_5607.jpg" alt="Bild 4">
+  <img src="media/PXL_20220507_062357987.jpg" alt="Bild 2">
+</div>
 
 Am nächsten Tag wird ausgeschlafen. Das Schnuffeltuch auf der einen Seite und der neue Schlafsack auf der anderen Seite erhöhen den Komfort in unserem Zelt derart, dass wir fast bis 10 Uhr brauchen, bis das Lager abgeschlagen ist und die Bikes wieder rollen. Aber das ist ja schließlich Urlaub - oder das, was wir uns darunter vorstellen.
 
