@@ -30,10 +30,10 @@
         <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon32 }}">
         <link rel="icon" type="image/png" sizes="16x16" href="{{ favicon16 }}">
 
-        {% if eleventy.environment == "production" %}
+        {% if eleventy.env.ELEVENTY_ENV == "production" %}
             {% set link = "/assets/css/" + csshash.indexCSS %}
             <link rel="preload" href="{{ link | url }}" as="style" />
-            <link rel="stylesheet" href="{{ link  | url }}" type="text/css" />
+            <link rel="stylesheet" href="{{ link | url }}" type="text/css" />
         {% else %}
             <link rel="stylesheet" href="/assets/css/index.css" type="text/css" />
         {% endif %}
