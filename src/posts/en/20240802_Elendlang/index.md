@@ -2,7 +2,7 @@
 title: Elendlang 2024
 description: Urlaub in Italien 
 date: 2024-08-02
-banner: "20240806_070406_Elendlang_Aosta.jpeg"
+banner: "20240806_070406_Elendlang_Aosta.jpg"
 tags:
   - MTB
   - "2024"
@@ -28,7 +28,7 @@ Bikes verladen und weiter geht’s ins Herz der Schweiz. Kurz hinter dem Genfer 
 
 Der sanfte Roll-In fällt heute ruppig aus: Es gibt direkt ausgesetzt und verblockt aufs Fressbrett. Bienvenue en Suisse! Aber auch das Ambiente macht keine Kompromisse: Lakeview und blühende Blumenwiesen - der Standard ist gesetzt! Nach den ersten Metern wird der Trail etwas flowiger und es geht in einen verwunschenen Wald. Wir haben Bock und einige Spitzkehren wollen gemeistert werden - wenn nicht jetzt dann vermutlich nie mehr in diesem Leben! Challenge accepted und wir liefern. Zufrieden nähern wir uns dem See. Die Köpfe werden im hiesigen Dorfbrunnen wieder auf normale Betriebstemperatur heruntergekühlt, bevor wir wieder den Ballerbus packen.
 
-![Lac Leman](media/20240802_164813_Elendlang_Aosta.jpeg "Lac Leman")
+![Lac Leman](media/20240802_164813_Elendlang_Aosta.jpg "Lac Leman")
 
 Die Schweiz ist gut aber wir müssen weiter: Urlaub in Italien - Erobique immer beste und so donnern wir durch Tunnelgalerien über den großen Bernhard bis uns der Duft von Holy Aperoly entgegen weht. Aosta calling! [Casa del Grillo](https://www.lacasadelgrilloaosta.it/) calling! Okay, hier wurde vor allem auf Preis statt Leistung gesetzt. Wir haben viele Betten auf wenig Raum und viel Duft in der Luft. Alles eine Frage des Framing. Es zieht uns trotzdem nochmal in den fortgeschrittenen Abend - schließlich sind wir downtown: erstmal Pizza und Gelati in der Fußgängerzone und danach noch Bastelarbeit an Marks Hinterrad beim Digestif. Dann ist auch gut für Tag 1 und wir schnüffeln uns in den süßlichen Schlaf und träumen von hochalpinen Trails…
 
@@ -44,7 +44,7 @@ Immer wieder begegnen uns Ebiker in Jeans Hotpants und anderen Stilblüten. Aber
 
 Auf einem lauschigen Hochplateau machen wir nochmal ausgiebig Pause und gönnen uns Focaccia, Zucchini Pasta und Panettone während uns im Hintergrund ein Adler umkreist. Schee do! Wir füllen nochmal die Flaschen am eiskalten Bergbach, schultern die Bikes und machen uns an den finalen Aufstieg zum Col. Wer summt hier eigentlich Punksongs? Team Scheisse ist zeitgleich mit uns auf dem Sattel angekommen und wir freuen uns so sehr, dass wir spontan einen Moshpit aufmachen, bevor wir in den Banzaitrail starten. Mein Arsch fliegt durch die Luft, du Wichser! Du willst Stress mit mir? Mit nem Schmetterling? Bist du scheisse im Kopf?! Mit dem passenden Soundtrack im Ohr stürzen wir in den Trail und die Beschreibung hat nicht übertrieben. Wir flattern durch eine hochalpine Idylle über allerfeinste Trails und zeitlos stürzen wir Richtung Tal. An einem lauschigen Plätzchen an einem Bach nutzen wir die Gelegenheit für einen Nachmittagssnack und eine arschkalte Abkühlung. 4/4 Herrlich für das Gesamtpaket. Wir starten den Zieleinlauf nach Cogne, wo wir neben einem Blick auf den Gran Paradiso auch noch einen Aperol am Marktplatz mitnehmen. Weil es uns hier achso gut gefällt, entscheiden wir uns hier auch direkt das Dinner einzunehmen. Also kurz am Ballerbus frisch machen dank Aussendusche und ab in den feinen Zwirn. Alle werden satt und zum Abschluss gibt es noch die lokale Spezialität Crema di Cogne aka Schokopudding. Kann man machen, wiederholen muss aber auch nicht sein. Ab nach Casa del Grillo: Zeit den Tag abzuwrappen und sich dem Rosenduft hinzugeben…
 
-![Aufstieg zum Passo Invergneux](media/20240803_151826_Elendlang_Aosta.jpeg "Aufstieg zum Passo Invergneux")
+![Aufstieg zum Passo Invergneux](media/20240803_151826_Elendlang_Aosta.jpg "Aufstieg zum Passo Invergneux")
 
 # Sonntag, 4. August 2024
 
@@ -58,9 +58,9 @@ Wir machen noch einen Cola & Chips Stopp mit tausend motorisierten anderen Touri
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["20240804_144936_Elendlang_Aosta.jpeg"],
- ["20240804_145303_Elendlang_Aosta.jpeg"],
- ["20240804_151023_Elendlang_Aosta.jpeg"]
+ ["20240804_144936_Elendlang_Aosta.jpg"],
+ ["20240804_145303_Elendlang_Aosta.jpg"],
+ ["20240804_151023_Elendlang_Aosta.jpg"]
 ]) }}
 
 Wir blasen jetzt die letzten Meter mit wehenden Trailhemden die Asphaltstraße zum Auto runter bevor wir unter der Outdoordusche unser wohlverdientes Kaltgetränk genießen. What a Day! Was an diesem göttlichen Tag noch fehlt, wäre eine Audienz beim Papst. Und so finden wir uns ein paar Minuten später auf der [Gartenterrasse des Pontifex](https://maps.app.goo.gl/LFrog5VEACpBF8XB6) im Abendlicht bei Pizza und Aperyolo. Auf der gegenüberliegenden Seite liegt das Ziel für Morgen - der Gipfel der Punta Leysser…wohlig fallen wir in unsere Kinderbetten, während der Traum von Andy zu Mark überspringt…
@@ -89,11 +89,11 @@ Wir haben’s aber eilig, die Sonne wartet nicht auf uns. Deshalb brechen wir zi
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["20240806_062832_Elendlang_Aosta.jpeg"],
- ["20240806_063404_Elendlang_Aosta.jpeg"],
- ["20240806_074259_Elendlang_Aosta.jpeg"],
- ["20240806_081844_Elendlang_Aosta.jpeg"],
- ["20240806_063615_Elendlang_Aosta.jpeg"]
+ ["20240806_062832_Elendlang_Aosta.jpg"],
+ ["20240806_063404_Elendlang_Aosta.jpg"],
+ ["20240806_074259_Elendlang_Aosta.jpg"],
+ ["20240806_081844_Elendlang_Aosta.jpg"],
+ ["20240806_063615_Elendlang_Aosta.jpg"]
 ]) }}
 
 Nachdem wir wieder mehr als 1 bar in Andys Hinterrad hatten, machen wir uns weiter nach unten. Ab 1500 m ändert sich der Weg und wir queren, teilweise stark ausgesetzt und extrem zugewuchert, aber immer mit Mörderaussicht ins Aostatal, Richtung Westen nach La Salle, wo wir gestern den Ballerbus deponiert hatten. Leider verliert Mark auf dem Trail seinen heißgeliebten Midlayer an einen unbekannten Dornbusch.
@@ -112,13 +112,13 @@ Das Abendessen in der Hütte ist dann eher mittel. Mit dem Vorabend kann man nic
 
 Der letzte Tag des Ausflugs beginnt beengt und früh in der dritten Etage des Hochbetts. Wir haben uns die Uhren gestellt, um den Sonnenaufgang zu sehen, bewältigen den Balanceakt aus dem Hühnerkäfig zu entkommen nach der nächtlichen Pinkelpause zum zweiten Mal, ziehen uns warm an und schleichen uns rechtzeitig nach draußen vor die Hütte. Andy wird die Nacht später in seine Top 3 der schlechtesten Hüttenübernachtungen wählen.
 
-![Val Veny](media/20240807_064103_Elendlang_Aosta.jpeg "Val Veny")
+![Val Veny](media/20240807_064103_Elendlang_Aosta.jpg "Val Veny")
 
 Der Sonnenaufgang an diesem Tag ist nicht mit dem wolkenlosen Feuerwerk am Vortag zu vergleichen. Die Sonne bleibt teilweise hinter Wolken versteckt und entwickelt nur wenig Kraft über dem ruhigen Val Veny. Dennoch ein toller Moment, um nochmal die vergangenen Tage Revue passieren zu lassen, alleine die Natur zu geniessen, oder - wie Mark - den kritischen Abbruch der Tour zu planen. Sein Knöchel ist stark geschwollen und die Belastung bergauf und bergab führt immer wieder zu stechenden Schmerzen. Eigentlich war für heute nochmal ein Highlight geplant mit einer aussichtsreichen Gipfeltour hoch überm Val Veny, aber in dieser Form macht das für Mark wenig Sinn und die Truppe entscheidet sich solidarisch gemeinsam die Abfahrt anzugehen. Oder haben Andy und Christian auch keinen Bock mehr und wollen auf die Autobahn?
 
 Bergab durchs Val Veny vom [Refugio Elisabetta](https://www.rifugioelisabetta.com/) findet sich nur wenig Trail, die Landschaft steht im Vordergrund, vor allen Dingen im oberen Teil des Tals bevor wir wieder unter die Baumgrenze tauchen. Nach einer kurzen Episode direkt nach der Hütte sind wir zurück auf der Aufstiegsroute, wo wir auf Forststraßen schnell Höhenmeter vernichten. Nur selten machen wir rechts und links einen kleinen Schlenker, um den Trailanteil zu erhöhen. Zuletzt machen wir noch einen Abstecher in die gigantische Moränenlandschaft des Brenvagletschers, dann gelangen wir fix über Asphalt zurück zu unserem Focaccia Dealer in Courmayeur Downtown und kurz danach zum Ballerbus.
 
-![Val Veny](media/20240807_081756_Elendlang_Aosta.jpeg "Val Veny")
+![Val Veny](media/20240807_081756_Elendlang_Aosta.jpg "Val Veny")
 
 Die Handgriffe sitzen. Wir sind mittlerweile ein gut eingespieltes Team beim Zusammenpacken und Beladen, stehen bald in der Schlange zum teuersten Tunnel der Alpen. Die Rückfahrt über Valorcine und Martigny ist aussichtsreich. An der Schweizer Grenze schmusen wir kurz mit einem Pappmascheedino in Übergröße, kaufen aber keine Schoki.
 

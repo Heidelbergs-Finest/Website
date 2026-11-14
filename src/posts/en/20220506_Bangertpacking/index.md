@@ -2,7 +2,7 @@
 title: Bangertpacking 2022
 description: Premiere in den Vogesen 
 date: 2022-05-06
-banner: "PXL_20220508_043038288.jpeg"
+banner: "PXL_20220508_043038288.jpg"
 tags:
   - MTB
   - Frankreich
@@ -21,8 +21,8 @@ Es ist viel Verkehr auf der A5 Richtung Süden. Deshalb wurde die erste Etappe u
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["PXL_20220506_194343027.MP.jpeg", "PXL_20220507_062357987.jpeg"],
- ["PXL_20220506_183721675.jpeg", "IMG_5607.jpeg"]
+ ["PXL_20220506_194343027.MP.jpg", "PXL_20220507_062357987.jpg"],
+ ["PXL_20220506_183721675.jpg", "IMG_5607.jpg"]
 ]) }}
 
 Am nächsten Tag wird ausgeschlafen. Das Schnuffeltuch auf der einen Seite und der neue Schlafsack auf der anderen Seite erhöhen den Komfort in unserem Zelt derart, dass wir fast bis 10 Uhr brauchen, bis das Lager abgeschlagen ist und die Bikes wieder rollen. Aber das ist ja schließlich Urlaub - oder das, was wir uns darunter vorstellen.
@@ -31,7 +31,7 @@ Im Lauf des Vormittages und am frühen Nachmittag lernen wir die Vogesen dann vo
 
 Ab dem Col de la Schlucht wird es spektakulär. Nach einer kurzen Steilstufe führt unser Weg aussichtsreich immer am Kamm entlang. Auf Grund der fortgeschrittenen Uhrzeit lassen wir zwei gute Optionen aus für eine Einkehr. Langsam müssen wir an unser zweites Nachtlager denken. Hierfür haben wir uns einen kleinen See unten im Tal ausgesucht, auch um starkem Wind und niedrigen Temperaturen auf der Höhe aus dem Weg zu gehen. An der [Ferme-Auberge Kastelberg](https://www.ferme-auberge-kastelberg.fr/) versuchen wir vergeblich nochmal etwas Brot zu ergattern, erhalten nur Munster Käse - das Brot muss noch für die Gäste morgen reichen. Dafür erhalten wir aber von einem Freiburger, der öfter in der Gegend um Mittlach unterwegs ist, den Tipp bloß nicht am Lac De Fischboedle zu pennen, das wäre ein totales Schattenloch. Das war ein guter Mann. Hoch über Mittlach schlagen wir etwas abseits vom Weg unser Nachlager auf mit schönem Weitblick Richtung Osten
 
-![Die Aussichtsterasse](media/PXL_20220507_182046608.MP.jpeg "Die Aussichtsterasse")
+![Die Aussichtsterasse](media/PXL_20220507_182046608.MP.jpg "Die Aussichtsterasse")
 
 Es ist zwar etwas kälter in der Nacht, aber Zelt und Schlafsack reichen gut aus, sodaß wir uns bei angenehmen Temperaturen gut erholen können. Noch vom Zelt aus kochen wir einen Tee und beobachten den Sonnenaufgang. Spätestens ab jetzt steht fest, dass wir den Trip nicht vergessen werden.
 

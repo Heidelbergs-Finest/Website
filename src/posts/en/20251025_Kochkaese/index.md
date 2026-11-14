@@ -2,7 +2,7 @@
 title: Kochkäs' Quest
 description: Leider Betriebsferien 
 date: 2025-10-19
-banner: "kochkaes_02.jpeg"
+banner: "kochkaes_02.jpg"
 tags:
   - MTB
   - "2025"
@@ -61,7 +61,7 @@ Von dort ging’s über flowige Pfade runter nach Elmshausen, dann nochmal hinau
 
 Und dann kam er: der finale Anstieg. Nochmal 400 Höhenmeter über Trails hoch zum Melibokus, zäh, steil, aber wunderschön. Oben kurz durchgeatmet – dann der letzte Downhill: technisch, spitzkehrenreich, typisch Melibokus. Ein würdiger Abschluss. Finale mit Muskelkater und Mission erfüllt.
 
-![Sollte hier die Luft nicht eigentlich besser sein?](media/kochkaes_17.jpeg)
+![Sollte hier die Luft nicht eigentlich besser sein?](media/kochkaes_17.jpg)
 
 17:30 Uhr. Bahnhof Hähnlein-Alsbach. Die Sonne tief, die Speicher leer, die Stimmung groß. Felix rollte mit der Bahn Richtung Norden nach Langen, Mark und Christian mit der Bahn Richtung Süden nach Heidelberg – und Matthias? Der fuhr einfach mit dem Rad weiter nach Weinheim. Weil’s geht.
 

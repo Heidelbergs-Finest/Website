@@ -2,7 +2,7 @@
 title: Eleven earths
 description: Bikepacking im Odenwald 
 date: 2021-05-23
-banner: "PXL_20210523_184016553.jpeg"
+banner: "PXL_20210523_184016553.jpg"
 tags:
   - MTB
   - Bikepacking
@@ -24,7 +24,7 @@ Die Pandemie kekst im Mai 2021 so richtig an, deshalb ist der Ausflug eine gern 
 
 Wir starten in Heidelberg direkt bei mir zu Hause. Die Bikes sind ordentlich bepackt. Da wir nicht genau wissen wo wir wegen etwaiger Coronabeschränkungen wie einkehren können, sind wir gut ausgestattet bis hin zum Gargelfinggedächtnisbanenenhalter.
 
-![Banana](media/PXL_20210523_054801140.MP.jpeg "Banana")
+![Banana](media/PXL_20210523_054801140.MP.jpg "Banana")
 
 Los geht die Tour auf bekannten Wegen. Vom Neckar weg klettern wir zügig zum Weissen Stein und von dort tiefer in den Odenwald. Wir sind mit ordentlich Druch auf den Pedalen unterwegs und bereits nach 4h Fahrtzeit auf der Tromm. Kurz danach gibt's ein zweites Früstück in Rimbach. Wir kaufen Nusszopf in großen Mengen und machen uns weiter. Nach der Pause kommt der erste Regenschauer. Wir hatten mit Niederschlag gerechnet, aber der Regen fällt so stark aus, dass wir uns entschließen das Gröbste unter einem dichten Blätterdach abzuwarten. Das sollte sich als die richtige Entscheidung rausstellen. Der Regen zieht rasch vorüber und wir bleiben weitestgehend trocken und machen uns an die Weiterfahrt.
 
@@ -34,8 +34,8 @@ Zwischenrein gibt es noch ein Eis in Reichelsheim, aber das kulinarische Highlig
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["PXL_20210523_123448439.jpeg"],
- ["PXL_20210523_142829957.jpeg"]
+ ["PXL_20210523_123448439.jpg"],
+ ["PXL_20210523_142829957.jpg"]
 ]) }}
 
 Nach dem Kochkäscarboloading rollen wir gemütlich weiter Richtung Marbach und Hetzbach wo vielleicht der schönste asphalitierte Anstieg im Odenwald zu finden ist. Und wir haben natürlich nochmal zusätzlich Glück, weil wir den Weg hoch nach Bullau im schönsten Abendlicht machen dürfen.
@@ -44,13 +44,13 @@ An diesem Tag geht sich wirklich vom Timing her alles aus. Die Eisdiele kommt zu
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["PXL_20210523_194332550.jpeg", "PXL_20210523_210534051.NIGHT.jpeg"],
- ["PXL_20210523_203059888.NIGHT.jpeg", "PXL_20210523_210602227.NIGHT.jpeg"]
+ ["PXL_20210523_194332550.jpg", "PXL_20210523_210534051.NIGHT.jpg"],
+ ["PXL_20210523_203059888.NIGHT.jpg", "PXL_20210523_210602227.NIGHT.jpg"]
 ]) }}
 
 Trotzdem schmeckt am nächsten Tag der warme Poorridge zum Frühstück gut und gibt uns ausreichend Power für den Aufstieg zum höchten Punkt des Odenwalds, dem Katzenbuckel. Mehrfach denken wir diesen Punkt bald zu erreichen, aber immer wieder werden wir getäuscht.
 
-![Auf dem Katzenbuckel](media/PXL_20210524_084751889.jpeg "Auf dem Katzenbuckel")
+![Auf dem Katzenbuckel](media/PXL_20210524_084751889.jpg "Auf dem Katzenbuckel")
 
 Ab Eberbach beginnt es dann langsam zäh zu werden mit unserer Tour. Auf der einen Seite bin ich happy, dass wir bereits am Vortrag 120km abgerissen haben und somit heute nicht mehr allzu viel auf dem Programm stand, auf der anderen Seite frage ich mich, ob die Schenkel noch etwas mehr hergeben würden, wenn wir gestern nicht bis Ultimo im Sattel geblieben wären. Aber das ist auch wurschd. In Anbtracht der magischen Mondnacht am Eutersee kann es dazu eigentlich keine zwei Meinungen geben. Und am meisten schmerzen mir auch eher die Handgelenke als die Beine - Erik singt da schon eher ein klassisches Klagelied.
 

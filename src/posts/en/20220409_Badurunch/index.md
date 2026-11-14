@@ -2,7 +2,7 @@
 title: Bad Uranch
 description: Schwäbische Alb im April
 date: 2022-04-09
-banner: PXL_20220409_115149610.jpeg
+banner: PXL_20220409_115149610.jpg
 tags:
   - MTB
   - Run

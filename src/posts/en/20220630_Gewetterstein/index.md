@@ -2,7 +2,7 @@
 title: Gewetterstein
 description: Wetterstein im Sommer
 date: 2022-06-30
-banner: "IMG_2229.jpeg"
+banner: "IMG_2229.jpg"
 tags:
   - Run
   - Österreich

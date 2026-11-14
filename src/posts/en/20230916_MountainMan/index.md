@@ -2,7 +2,7 @@
 title: Mountain Man
 description: Ein Ultratrail in Großarl
 date: 2023-09-16
-banner: "2023_MountainMan006.jpeg"
+banner: "2023_MountainMan006.jpg"
 tags:
   - Run
   - Österreich
@@ -24,7 +24,7 @@ Ich schaue auf meine Garmin: Es ist 5:30 Uhr und ich höre die Filmmusik von „
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["2023_MountainMan000.jpeg"], ["2023_MountainMan001.jpeg"]
+ ["2023_MountainMan000.jpg"], ["2023_MountainMan001.jpg"]
 ]) }}
 
 <br><br>
@@ -33,7 +33,7 @@ Und 9 Monate und 1100 Trainingskilometer zu Fuß später stand ich tatsächlich 
 
 <br><br>
 
-![Startschuss](media/2023_MountainMan002.jpeg)
+![Startschuss](media/2023_MountainMan002.jpg)
 
 <br><br>
 
@@ -47,7 +47,7 @@ Die Zeit vor dem Start nutzte ich noch für ein paar Mobilisierungsübungen und 
 
 <br><br>
 
-![Labestation 1](media/2023_MountainMan003.jpeg)
+![Labestation 1](media/2023_MountainMan003.jpg)
 
 <br><br>
 
@@ -55,7 +55,7 @@ Ich wollte viel und regelmäßig essen und hab mir sogar einen 45 Minuten Fresst
 
 <br><br>
 
-![Extra Tiefenmeter](media/2023_MountainMan008.jpeg)
+![Extra Tiefenmeter](media/2023_MountainMan008.jpg)
 
 <br><br>
 
@@ -65,7 +65,7 @@ Diese Facette hatte ich in meiner Vorbereitung schlicht ignoriert. Ich merkte gl
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["2023_MountainMan004.jpeg"], ["2023_MountainMan005.jpeg"]
+ ["2023_MountainMan004.jpg"], ["2023_MountainMan005.jpg"]
 ]) }}
 
 <br><br>
@@ -76,7 +76,7 @@ Als Teil einer Vierergruppe war ich ziemlich im Flow, als ich an einer Geländeb
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["2023_MountainMan007.jpeg"], ["2023_MountainMan009.jpeg"]
+ ["2023_MountainMan007.jpg"], ["2023_MountainMan009.jpg"]
 ]) }}
 
 <br><br>
@@ -89,8 +89,8 @@ Am Gipfel des Gründeggs auf 2100 m überholte ich zum ersten Mal Hans, der mich
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["2023_MountainMan010.jpeg"], ["2023_MountainMan011.jpeg"],
- ["2023_MountainMan012.jpeg"], ["2023_MountainMan013.jpeg"]
+ ["2023_MountainMan010.jpg"], ["2023_MountainMan011.jpg"],
+ ["2023_MountainMan012.jpg"], ["2023_MountainMan013.jpg"]
 ]) }}
 
 <br><br>
@@ -107,7 +107,7 @@ Im folgenden gingen es wieder hoch auf den Bergrücken und da weiter isohypsig a
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["2023_MountainMan015.jpeg"], ["2023_MountainMan016.jpeg"]
+ ["2023_MountainMan015.jpg"], ["2023_MountainMan016.jpg"]
 ]) }}
 
 <br><br>
@@ -116,7 +116,7 @@ Die Kilometer 30 - 38 verliefen unspektakulär schön und rollten dahin durch di
 
 <br><br>
 
-![Sahnetrail](media/2023_MountainMan018.jpeg)
+![Sahnetrail](media/2023_MountainMan018.jpg)
 
 <br><br>
 
@@ -126,7 +126,7 @@ Tatsächlich aber tat mir die kleine „Pause“ aber sehr gut und ich fand rela
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["2023_MountainMan017.jpeg"], ["2023_MountainMan019.jpeg"]
+ ["2023_MountainMan017.jpg"], ["2023_MountainMan019.jpg"]
 ]) }}
 
 <br><br>
@@ -137,7 +137,7 @@ Als sich vor uns ein Hang auftat, waren mit einem Mal noch 4 weitere Läufer zu 
 
 <br><br>
 
-![Steil bergab](media/2023_MountainMan020.jpeg)
+![Steil bergab](media/2023_MountainMan020.jpg)
 
 <br><br>
 
@@ -145,7 +145,7 @@ Und tatsächlich konnte ich nicht mehr folgen, als Hans und Christoph mich einho
 
 <br><br>
 
-![Jaa!](media/2023_MountainMan021.jpeg)
+![Jaa!](media/2023_MountainMan021.jpg)
 
 <br><br>
 
@@ -161,7 +161,7 @@ Ca. 40 Minuten später stehe ich bis zu den Knien in eiskaltem Wasser des Bachla
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["2023_MountainMan022.jpeg"], ["2023_MountainMan023.jpeg"]
+ ["2023_MountainMan022.jpg"], ["2023_MountainMan023.jpg"]
 ]) }}
 
 <br><br>

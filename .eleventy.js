@@ -35,10 +35,10 @@ function getFilenameWithoutExtensin(filenameIncludingPath) {
     return parts.join('.');
 }
 
-async function imageNeedsProcessing(srcPath, outputDir) {
-    const filenameWithoutExtension = getFilenameWithoutExtensin(srcPath);
-    const fullOutputPath = `${outputDir}/${filenameWithoutExtension}.jpeg`;
-    const thumbOutputPath = `${outputDir}/thumbnail-${filenameWithoutExtension}.jpeg`;
+async function imageNeedsProcessing(srcPath, outputDir, ext) {
+    const filename = getFilename(srcPath);
+    const fullOutputPath = `${outputDir}/${filename}`;
+    const thumbOutputPath = `${outputDir}/thumbnail-${filename}`;
 
     // If output directory doesn't exist, we need to process
     if (!fs.existsSync(outputDir)) {
@@ -69,23 +69,6 @@ async function generateImages() {
         console.log('Running in fast mode: only processing missing images');
     }
 
-	let options = {
-		widths: [THUMB, "auto", FULL],
-		formats: ['jpeg'],
-		filenameFormat:function(id, src, width, format, options) {
-            let filenameWithoutExtension = getFilenameWithoutExtensin(src)
-
-            if (width == THUMB)
-            {
-                return `thumbnail-${filenameWithoutExtension}.${format}`;
-            }
-            else
-            {
-                return `${filenameWithoutExtension}.${format}`;
-            }
-		}
-	};
-
 	let files = await glob('./src/**/media/*.{jpg,jpeg,png,gif,JPG,JPEG,PNG,GIF}');
 
 	let processedCount = 0;
@@ -93,25 +76,41 @@ async function generateImages() {
 
 	for(const f of files) {
         const outputDir = '_site/' + getRelativeImageLocation(f);
+        const ext = f.split('.').pop().toLowerCase();
+        const filename = getFilename(f);
         
         // In fast mode, only process if images don't exist
         // In normal mode, process if images don't exist or source is newer
         let needsProcessing;
         if (skipMode) {
             // Fast mode: process only if output files don't exist
-            const filenameWithoutExtension = getFilenameWithoutExtensin(f);
-            const fullOutputPath = `${outputDir}/${filenameWithoutExtension}.jpeg`;
-            const thumbOutputPath = `${outputDir}/thumbnail-${filenameWithoutExtension}.jpeg`;
+            const fullOutputPath = `${outputDir}/${filename}`;
+            const thumbOutputPath = `${outputDir}/thumbnail-${filename}`;
             needsProcessing = !fs.existsSync(fullOutputPath) || !fs.existsSync(thumbOutputPath);
         } else {
             // Normal mode: process if source is newer than outputs
-            needsProcessing = await imageNeedsProcessing(f, outputDir);
+            needsProcessing = await imageNeedsProcessing(f, outputDir, ext);
         }
 
         if (needsProcessing) {
             console.log('image processing: ', f);
-            options.outputDir = outputDir;
-            await Image11ty(f, options);
+            
+            // DYNAMISCHE OPTIONEN PRO BILD - behält Original-Extension
+            let fileOptions = {
+                widths: [THUMB, "auto", FULL],
+                formats: [ext],
+                filenameFormat: function(id, src, width, format, options) {
+                    let filename = getFilename(src);
+                    if (width == THUMB) {
+                        return `thumbnail-${filename}`;
+                    } else {
+                        return filename;
+                    }
+                },
+                outputDir: outputDir
+            };
+            
+            await Image11ty(f, fileOptions);
             processedCount++;
         } else {
             console.log(skipMode ? 'image skipped (exists): ' : 'image skipped (already up-to-date): ', f);
@@ -180,7 +179,7 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addCollection('images', async collectionApi => {
 
-		let files = await glob('**/_site/posts/**/media/*.jpeg');
+		let files = await glob('**/_site/posts/**/media/*.{jpg,jpeg,png,gif}');
 
         //Now filter to non thumb-
 		let images = files.filter(f => {
@@ -190,11 +189,6 @@ module.exports = function(eleventyConfig) {
         let collection = []
             
         for (let i = 0; i < images.length; i++) {
-            let options = {
-                statsOnly: true,
-                formats: ['jpeg']
-            };
-
             var dimensions = sizeOf(images[i]);
 
             c = {

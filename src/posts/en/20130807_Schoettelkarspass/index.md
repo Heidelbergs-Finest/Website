@@ -1,7 +1,7 @@
 ---
 title: Riding the Herbst
 description: Leistungsbestimmung im August
-banner: L1020924.jpeg
+banner: L1020924.JPG
 date: 2013-08-07
 tags:
   - MTB
@@ -36,24 +36,24 @@ We arrived at the trail head around 9pm. We set up camp on a beautiful spot over
 
 {% from "components/image-grid.njk" import imageGrid %}
 {{ imageGrid([
- ["L1020902.jpeg"],
- ["L1020905.jpeg"]
+ ["L1020902.JPG"],
+ ["L1020905.JPG"]
 ]) }}
 
 Our plan was to be above the tree line for sunrise so we set out at 3am. The first part of the climb was on a well maintained fire road and we made very good progress while it was pitch-black. At the break of dawn the uphill turned into a tricky trail. We brought our head lights so it was OK even though we shit our pants at the most exposed sections which were not equipped with wire rope. Unlike shown in the video we ended up pushing and carrying our bikes for the most part on that section.
 
-![Auf dem Lakaiensteig](media/L1020942.jpeg "Auf dem Lakaiensteig")
+![Auf dem Lakaiensteig](media/L1020942.JPG "Auf dem Lakaiensteig")
 
 We kept up with our plan and were above tree line for sunrise. This was truly amazing and definitely worth getting up in the middle of the night. Eventually the trail got less exposed and we even managed to ride some sections before we had to start carrying our bikes for the very last steep bit of the uphill. We arrived at the summit around 7am and had a brilliant breakfast. Being out in the mountains that early definitely added a lot to our experience. On the one hand the light of the early morning was beyond beautiful and on the other hand we had the summit which is usually a very popular destination pretty much for ourselves.
 
-![Auf der Schöttelkarspitze](media/L1020965.jpeg "Auf der Schöttelkarspitze")
+![Auf der Schöttelkarspitze](media/L1020965.JPG "Auf der Schöttelkarspitze")
 
 On the uphill we ended up pushing and carrying our bikes more than expected but we were still in time and stoked to test ourselves on the downhill. Side note: We originally brought 2.5l of water each; by the time we started the downhill we both had 0.5l left. Apparently we both drank way more than usual…
 
 
 The first part of the downhill turned out to be unridable for us. We ended up pushing our bikes over an exposed ridge trail and carrying our bikes up and down little climbing sections for another hour. By 9am, i.e. six hours into our tour, water was running out and we were not able to ride a single meter of trail downhill. We also doubt that it is possible for a human to ride significantly more than the 50 meter nerves of steel section on a terribly exposed single track which is shown in the video.
 
-![Keine Körner mehr](media/L1020976.jpeg "Keine Körner mehr")
+![Keine Körner mehr](media/L1020976.JPG "Keine Körner mehr")
 
 Now we came to the point where we thought we could actually start riding but we were already dead beat and there was no water to refuel. We ended up slipping and sliding down most of the trail where Max Schuhmann was celebrating his skills. For the bigger part of the downhill we only rode for a couple of meters before we had to get off the bike to carry over tight and steep switchbacks on coarse gravel. It took us hours to get back to the trail head just to find out that Mark forgot his glasses 400 meters of elevation gain higher on the trail.
 
