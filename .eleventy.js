@@ -1,13 +1,13 @@
-const { DateTime } = require("luxon");
-const fs = require("fs");
-const pluginRss = require("@11ty/eleventy-plugin-rss");
-const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
-const pluginNavigation = require("@11ty/eleventy-navigation");
-const { markdownLibrary } = require("./.markdown.js");
-const CleanCSS = require('clean-css');
-const Image11ty = require("@11ty/eleventy-img");
-const glob = require("glob-promise");
-const sizeOf = require('image-size')
+import { DateTime } from "luxon";
+import fs from "fs";
+import pluginRss from "@11ty/eleventy-plugin-rss";
+import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import pluginNavigation from "@11ty/eleventy-navigation";
+import { markdownLibrary } from "./.markdown.js";
+import CleanCSS from 'clean-css';
+import Image11ty from "@11ty/eleventy-img";
+import glob from "glob-promise";
+import { imageSizeFromFile } from 'image-size/fromFile';
 
 const FULL = 1600;
 const THUMB = 300;
@@ -22,8 +22,8 @@ function getRelativeImageLocation(filenameIncludingPath) {
 }
 
 function getPostFolder(filenameIncludingPath) {
-    parts = filenameIncludingPath.split('/');
-    postFolder = parts.at(-3);
+    const parts = filenameIncludingPath.split('/');
+    const postFolder = parts.at(-3);
     return postFolder;
 }
 
@@ -120,7 +120,7 @@ async function generateImages() {
 	console.log(`Image processing complete: ${processedCount} processed, ${skippedCount} skipped`);
 };
 
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginSyntaxHighlight);
     eleventyConfig.addPlugin(pluginNavigation);
@@ -189,9 +189,9 @@ module.exports = function(eleventyConfig) {
             
         for (let i = 0; i < images.length; i++) {
 			try {
-            var dimensions = sizeOf(images[i]);
+            const dimensions = await imageSizeFromFile(images[i]);
 
-            c = {
+            const c = {
                 fullPath: images[i],
                 postfolder: getPostFolder(images[i]),
 				filename: getFilename(images[i]),
@@ -213,7 +213,7 @@ module.exports = function(eleventyConfig) {
         let collection = [];
 
         for (let i = 0; i < files.length; i++) {      
-            c = {
+            const c = {
                 fullPath: files[i],
                 postfolder: getPostFolder(files[i]),
 				filename: getFilename(files[i])             

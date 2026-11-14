@@ -1,11 +1,11 @@
-const markdownIt = require("markdown-it");
-const markdownItAnchor = require("markdown-it-anchor");
-// const markdownItContainer = require("markdown-it-container");
-const fs = require("fs");
+import markdownIt from "markdown-it";
+import markdownItAnchor from "markdown-it-anchor";
+// import markdownItContainer from "markdown-it-container";
+import fs from "fs";
 
 const linkIcon = fs.readFileSync("./src/_includes/icons/link.svg");
 
-let markdownLibrary = markdownIt({
+const markdownLibrary = markdownIt({
     html: true,
     breaks: true,
     linkify: true,
@@ -16,6 +16,4 @@ let markdownLibrary = markdownIt({
     permalinkSymbol: linkIcon
 });
 
-module.exports = {
-    markdownLibrary
-}
+export { markdownLibrary };
